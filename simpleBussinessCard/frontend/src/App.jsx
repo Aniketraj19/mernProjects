@@ -1,5 +1,11 @@
+import { CreateBussinessCard } from "./components/CreateBussinessCard";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <CreateBussinessCard />
+    </div>
+  );
 }
 
 export default App;
